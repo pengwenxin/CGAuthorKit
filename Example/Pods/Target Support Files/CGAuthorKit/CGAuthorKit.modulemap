@@ -1,0 +1,6 @@
+framework module CGAuthorKit {
+  umbrella header "CGAuthorKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

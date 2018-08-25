@@ -1,0 +1,6 @@
+framework module CGSpecialKit_Category {
+  umbrella header "CGSpecialKit_Category-umbrella.h"
+
+  export *
+  module * { export * }
+}
