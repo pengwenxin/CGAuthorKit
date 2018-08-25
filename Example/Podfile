@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CGAuthorKit_Example' do
+  pod 'CGAuthorKit', :path => '../'
+
+  target 'CGAuthorKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
