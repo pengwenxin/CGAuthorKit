@@ -1,6 +1,6 @@
 {
   "name": "CGAuthorKit",
-  "version": "8",
+  "version": "9",
   "summary": "A short description of CGAuthorKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/pengwenxin/CGAuthorKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/pengwenxin/CGAuthorKit.git",
-    "tag": "8"
+    "tag": "9"
   },
   "platforms": {
     "ios": "8.0"
