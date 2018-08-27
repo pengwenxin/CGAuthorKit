@@ -7,7 +7,7 @@
 //
 
 #import "FFAuthorCell.h"
-#import "public.h"
+#import "FFAuthorKit.h"
 #import "YYWebImage.h"
 #import "FFAuthorListReformerKeys.h"
 
@@ -90,7 +90,7 @@
 
 #pragma mark - handle data
 - (void)handleData {
-    
+    /*
     @weakify(self)
     [RACObserve(self, dataDict) subscribeNext:^(NSDictionary *data) {
         @strongify(self)
@@ -112,6 +112,7 @@
             }
         }];;
     }];
+     */
 }
 
 #pragma mark - getter

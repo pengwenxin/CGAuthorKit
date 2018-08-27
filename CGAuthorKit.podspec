@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CGAuthorKit'
-  s.version          = '11'
+  s.version          = '12'
   s.summary          = 'A short description of CGAuthorKit.'
 
 # This description is used to generate tags and improve search results.
@@ -50,4 +50,6 @@ TODO: Add long description of the pod here.
   s.dependency 'CGMainViewKit'
   s.dependency 'CGConfigsKit'
   s.dependency 'CGSpecialKit_Category'
+  
+  
 end

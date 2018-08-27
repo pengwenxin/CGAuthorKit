@@ -7,7 +7,7 @@
 //
 
 #import "FFAuthorController.h"
-#import "public.h"
+#import "FFAuthorKit.h"
 #import "AuthorAPIRequest.h"
 #import "FFAuthorListReformer.h"
 // view
@@ -15,7 +15,8 @@
 #import "FFAuthorCell.h"
 // controller
 #import "FFAuthorDetailController.h"
-#import "FFSpecialDetailController.h"
+#import <CGSpecialKit_Category/CTMediator+Special.h>
+//#import "FFSpecialDetailController.h"
 
 @interface FFAuthorController ()<APIResponseProtocol,FFCellProtocol>
 
@@ -50,7 +51,7 @@
 }
 
 - (void)cellGoodTopicDidClick:(NSIndexPath *)indexPath params:(NSDictionary *)params {
-    UIViewController *controller = [[FFSpecialDetailController alloc] init];
+    UIViewController *controller = [[CTMediator sharedInstance] specialDetailController];
     [self.navigationController pushViewController:controller animated:YES];
 }
 
