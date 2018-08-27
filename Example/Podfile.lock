@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - CGAuthorKit (10):
+  - CGAuthorKit (11):
     - CGCategoryKit
     - CGConfigsKit
     - CGMainViewKit
@@ -80,7 +80,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  CGAuthorKit: b029139b20935783e7d81750ef7017b932fc058c
+  CGAuthorKit: 6727ff03f5cc291105a22a6a13ac9125e882fc72
   CGCategoryKit: 1210a2691500f8885703ad32961ac12b8b6447a0
   CGConfigsKit: 17309d6d46f1ede32f75028a2097bd279beaa0a5
   CGMainViewKit: 619d0fea8f67a380bcb52b94564d72e4847d7a73

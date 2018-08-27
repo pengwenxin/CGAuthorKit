@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "FFAuthorDetailController.h"
+#import "AuthorAPIRequest.h"
+#import "FFAuthorCell.h"
+#import "FFAuthorController.h"
+#import "FFAuthorListReformer.h"
 
 FOUNDATION_EXPORT double CGAuthorKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char CGAuthorKitVersionString[];
